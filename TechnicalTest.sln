@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{B8A6B283-13FF-4A6D-A2C2-A876513C3385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{9C981F99-1E0D-4002-A26F-401F44BCC7F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E086F9F-9250-40FB-AF49-2D85440D81F8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project3", "Project3\Project3.csproj", "{E0A06764-3D51-4A6F-B3C4-447DC938DCFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EB2D6C1E-2351-48C0-AC54-F9B0BCD3105F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Project3", "Test.Project3\Test.Project3.csproj", "{FDB1E426-C2AF-4950-85AF-14595AEF546D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A6B283-13FF-4A6D-A2C2-A876513C3385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A6B283-13FF-4A6D-A2C2-A876513C3385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A6B283-13FF-4A6D-A2C2-A876513C3385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A6B283-13FF-4A6D-A2C2-A876513C3385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C981F99-1E0D-4002-A26F-401F44BCC7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C981F99-1E0D-4002-A26F-401F44BCC7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C981F99-1E0D-4002-A26F-401F44BCC7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C981F99-1E0D-4002-A26F-401F44BCC7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A06764-3D51-4A6F-B3C4-447DC938DCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A06764-3D51-4A6F-B3C4-447DC938DCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A06764-3D51-4A6F-B3C4-447DC938DCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A06764-3D51-4A6F-B3C4-447DC938DCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB1E426-C2AF-4950-85AF-14595AEF546D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB1E426-C2AF-4950-85AF-14595AEF546D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB1E426-C2AF-4950-85AF-14595AEF546D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB1E426-C2AF-4950-85AF-14595AEF546D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDB1E426-C2AF-4950-85AF-14595AEF546D} = {EB2D6C1E-2351-48C0-AC54-F9B0BCD3105F}
+	EndGlobalSection
+EndGlobal
